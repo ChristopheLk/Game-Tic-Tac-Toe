@@ -1,3 +1,3 @@
-Morpion (Tic-Tac-Toe)
+Tic-Tac-Toe
 Description
-Ce projet est une implémentation simple du jeu de morpion (Tic-Tac-Toe) en Javascript / Html / css. Le jeu permet à deux joueurs de s'affronter sur une grille de 3x3. Le premier joueur à aligner trois symboles identiques horizontalement, verticalement ou en diagonale gagne la partie.
+This project is a simple implementation of the Tic-Tac-Toe game using JavaScript, HTML, and CSS. The game allows two players to compete on a 3x3 grid. The first player to align three identical symbols horizontally, vertically, or diagonally wins the game.
