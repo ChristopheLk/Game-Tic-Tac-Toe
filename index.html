@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+    <meta name="Jeu du Morpion" content="
+    Jouez au Morpion en ligne gratuitement ! Défiez vos amis ou l'ordinateur dans ce jeu de stratégie classique. Simple, amusant et accessible à tous.">
+</head>
+<body>
+
+    <div>
+        <button onclick="restartGame()" id="restart" class="darkb">Restart</button>
+        <p id="end"></p>
+        <button id="DarkMode" onclick="darkMode()" class="darkb" >Dark Mode</button>
+    </div>
+
+    <section id="global">
+        <section class="grid" >
+            <div class="row row1">
+                <div class="cell" id="cell1" onclick="updateWord(this)">
+                    <p class="none"></p>
+                </div>
+                <div class="cell cellmid" id="cell2"  onclick="updateWord(this)">
+                    <p class="none"></p>
+                </div>
+                <div class="cell" id="cell3" onclick="updateWord(this)">
+                    <p class="none"></p>
+                </div>
+            </div>
+
+            <div class="row row2">
+                <div class="cell"  id="cell4" onclick="updateWord(this)">
+                    <p class="none"></p>
+                </div>
+                <div class="cell cellmid" id="cell5" onclick="updateWord(this)">
+                    <p class="none"></p>
+                </div>
+                <div class="cell" id="cell6" onclick="updateWord(this)">
+                    <p class="none"></p>
+                </div>
+            </div>
+
+            <div class="row row3">
+                <div class="cell" id="cell7" onclick="updateWord(this)">
+                    <p class="none"></p>
+                </div>
+                <div class="cell cellmid" id="cell8" onclick="updateWord(this)">
+                    <p class="none"></p>
+                </div>
+                <div class="cell" id="cell9" onclick="updateWord(this)">
+                    <p class="none"></p>
+                </div>
+            </div>
+        </section>
+    </section> 
+
+
+    <script src="javascript/main.js"></script>
+</body>
+</html>

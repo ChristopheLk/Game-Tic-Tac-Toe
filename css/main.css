@@ -1,0 +1,99 @@
+*{/* Reset some default browser styles */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  font-size: 150px;
+}
+
+#end{
+    position: absolute;
+    top:1%;
+    left: 41%;
+    font-size: 30px;
+}
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color: #f0f0f0; /* Light background color for contrast */
+}
+
+
+#global {
+    width:1500px;
+    height: 800px;
+    display: flex;
+    flex-direction: column; /* Flex column to allow vertical stacking */
+    align-items: center; /* Centers horizontally */
+}
+.none{
+    font-size: 0px;
+}
+
+.grid {
+  display: grid;
+  border: none;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(3, 1fr); 
+  width: 100%; 
+  height: 100%;
+  background-color: white;
+}
+
+
+.cell {
+  border: 1px solid #333; /* Outlines each cell */
+  display: flex;
+  width:500px;
+  height:266.66px;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */ 
+}
+
+#restart, .darkb{
+    margin-block: 2%;
+    width:8vw;
+    height:3vh;
+    background: black;
+    border-style: none;
+    color:#fff;
+    font-size: 23px;
+    letter-spacing: 3px;
+    position: absolute;
+    padding: 0px;    
+    top:2%;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+#restart{
+    left: 2%;
+}
+#DarkMode{
+    right: 2%;
+}
+.darkM{
+    color: white;
+    background-color: #121212;
+    border-color: white;
+}
+.dark, .darkbg{
+    background-color: #121212;
+}
+.whiteM{
+    color:black;
+    background-color:#f0f0f0 ;
+    border-color: black;
+}
+.white, .whitebg{
+    background-color: white;
+}
+.white_button{
+    background: white !important;
+    color: black !important;
+}
